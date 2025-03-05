@@ -25,7 +25,6 @@
         "lint": "eslint --fix --cache --cache-location ./node_modules/.cache/eslint .",
         "prepublish": "yarn clean && yarn build",
         "postpublish": "./tagLatest.js && git push && git push --tags",
-        "postinstall": "cd node_modules/miblanchard-react-native-slider && yarn build || npm run build || echo 'Build failed, skipping...'",
         "storybook": "start-storybook --config-dir .storybook",
         "test": "patch-package && yarn lint && yarn typescript",
         "typescript": "tsc --pretty --noEmit",
