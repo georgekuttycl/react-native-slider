@@ -12,6 +12,6 @@ npm-debug.log
 yarn-error.log
 
 # npm
-lib/
+
 
 .yarn/install-state.gz
