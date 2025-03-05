@@ -38,9 +38,6 @@
         "react": ">=16.8",
         "react-native": ">=0.59"
     },
-    "dependencies": {
-        "react-native-size-scaling": "^0.5.1"
-    },
     "devDependencies": {
         "@babel/core": "7.15.5",
         "@react-native-community/eslint-config": "3.0.1",

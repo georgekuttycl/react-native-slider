@@ -11,7 +11,6 @@ import {
     View,
     ViewStyle,
 } from 'react-native';
-import { scale } from 'react-native-size-scaling';
 // styles
 import {defaultStyles as styles} from './styles';
 import type {Dimensions, SliderProps, SliderState} from './types';
@@ -865,12 +864,12 @@ export class Slider extends PureComponent<SliderProps, SliderState> {
                                 renderThumbComponent
                                     ? {}
                                     : {
-                                        width: scale(24),
-                                        height: scale(12),
-                                        borderTopLeftRadius: i ==0 ? scale(12) : 0,
-                                        borderTopRightRadius: i==0 ? 0 : scale(12),
-                                        borderBottomLeftRadius: i==0 ? scale(12) : 0,
-                                        borderBottomRightRadius: i==0 ? 0 : scale(12),
+                                        width: 24,
+                                        height: 12,
+                                        borderTopLeftRadius: i ==0 ? 12 : 0,
+                                        borderTopRightRadius: i==0 ? 0 : 12,
+                                        borderBottomLeftRadius: i==0 ? 12 : 0,
+                                        borderBottomRightRadius: i==0 ? 0 : 12,
                                         overflow: 'hidden',                                    
                                         backgroundColor: thumbTintColor,
                                         ...thumbStyle,
