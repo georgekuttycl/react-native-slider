@@ -5,7 +5,7 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
-        "lib"
+        "lib", "dist"
     ],
     "contributors": [
         "Jean Regisser <jean.regisser@gmail.com> (https://github.com/jeanregisser)",
